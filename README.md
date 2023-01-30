@@ -1,0 +1,1 @@
+# HP-ProDesk-600-G5-Mini-OpenCore
