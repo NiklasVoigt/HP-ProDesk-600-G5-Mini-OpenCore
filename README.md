@@ -25,6 +25,9 @@ Wireless | BCM94352Zz (Dell DW1560)
 ## Important for BCM94352Zz
 Add the right Kexts, AirportBrcmFix => BlueToolFixup => BrcmFirmwareData => BrcmPatchRAM3, in this specific order. Make sure to turn off the plugin AirPortBrcm4360_Injector (false) . No boot arg needed.
 
+## Patching Connector Types (DVI -> VGA Adapter)
+framebuffer-conX-type <00 02 00 00> DVI (Single Link)
+
 ## Thanks
 -Apple
 -[@Acidanthera](https://github.com/acidanthera)
